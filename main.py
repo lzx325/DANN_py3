@@ -8,7 +8,7 @@ import numpy as np
 from data_loader import GetLoader
 from torchvision import datasets
 from torchvision import transforms
-from model import CNNModel
+from model import CNNModel1,CNNModel2
 from test import test
 
 source_dataset_name = 'MNIST'
@@ -70,7 +70,8 @@ dataloader_target = torch.utils.data.DataLoader(
 
 # load model
 
-my_net = CNNModel()
+
+my_net = CNNModel2()
 
 # setup optimizer
 

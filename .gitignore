@@ -6,4 +6,5 @@ dataset/MNIST
 *.pt
 *.txt
 *.png
-
+.vscode/
+.ipynb_checkpoints/
